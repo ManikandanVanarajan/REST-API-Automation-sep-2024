@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="classes" name="Suite">
+  <test name="RunningMultipleFeatureFile">
+	  <classes>
+      <class name="week4.day2.runner.IncidentTestRunner"/>
+      <class name="week4.day2.runner.IncidentTestRunner2"/>
+      <class name="week4.day2.runner.IncidentTestRunner3"/>
+    </classes>	  
+  </test> <!-- RunningMultipleFeatureFile -->
+</suite> <!-- Suite -->
